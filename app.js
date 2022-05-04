@@ -40,7 +40,7 @@ app.post("/", function (req, res) {
           LNAME: subscribingUser.lastName,
         },
       });
-      console.log(response);
+      console.log(response.full_name);
       res.sendFile(__dirname + "/success.html");
     } catch (err) {
       console.log(err.status);
@@ -51,7 +51,7 @@ app.post("/", function (req, res) {
   run();
 });
 
-app.listen(1000, function () {
+app.listen(process.env.PORT || 1000, function () {
   console.log("Newsletter  server UP on port 3000: ACCESS GRANTED");
 });
 
