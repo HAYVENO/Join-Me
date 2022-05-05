@@ -51,9 +51,15 @@ app.post("/", function (req, res) {
   run();
 });
 
-app.listen(process.env.PORT || 1000, function () {
-  console.log("Newsletter  server UP on port 1000: ACCESS GRANTED");
-});
+// app.listen(process.env.PORT || 1000, function () {
+//   console.log("Newsletter  server UP on port 1000: ACCESS GRANTED");
+// });
+
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 8000;
+}
+app.listen(port);
 
 // API Mailchimp
 // cbb9e42bf9789ca015bd05a2b90b8c75 - us11;
