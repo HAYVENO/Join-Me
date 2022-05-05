@@ -52,7 +52,7 @@ app.post("/", function (req, res) {
 });
 
 app.listen(process.env.PORT || 1000, function () {
-  console.log("Newsletter  server UP on port 3000: ACCESS GRANTED");
+  console.log("Newsletter  server UP on port 1000: ACCESS GRANTED");
 });
 
 // API Mailchimp
