@@ -36,6 +36,9 @@ ul {
 
 img {
 	max-width: 100%;
+	transform: scale(105%);
+	box-shadow: 0 2px 8px #000;
+	border-radius: 16px;
 }
 
 ul {
@@ -45,7 +48,7 @@ ul {
 
 a {
 	text-decoration: none;
-	color: #682307;
+	color: #682307db;
 	transition: all 0.3s ease;
 }
 a:hover {
@@ -95,7 +98,7 @@ h3 {
 	font-family: "ElMessiri-SemiBold";
 	text-align: center;
 	margin-bottom: 27px;
-	color: #682307;
+	color: #682307db;
 }
 
 .form-holder {
@@ -110,7 +113,7 @@ h3 {
 	width: 10px;
 	height: 10px;
 	border-radius: 50%;
-	border: 2px solid #682307;
+	border: 2px solid #682307db;
 	position: absolute;
 	left: 1px;
 	top: 50%;
@@ -118,7 +121,7 @@ h3 {
 }
 .form-holder.active:before {
 	border: 2px solid transparent;
-	background: #682307;
+	background: #682307db;
 }
 
 .form-control {
@@ -222,7 +225,7 @@ button {
 	align-items: center;
 	justify-content: center;
 	padding: 0;
-	background: #682307;
+	background: #682307db;
 	font-size: 15px;
 	color: #fff;
 	text-transform: uppercase;
@@ -278,7 +281,7 @@ button:hover {
 	width: 4px;
 	height: 4px;
 	border-radius: 50%;
-	background: #682307;
+	background: #682307db;
 	position: absolute;
 	display: none;
 }
