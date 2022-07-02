@@ -66,5 +66,5 @@ app.listen(process.env.PORT || 6000, function () {
 
 // audience ID (List ID)
 // 329c35e482
-
+const me = "you";
 //   //let there be an update, and there was one;
